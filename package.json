@@ -1,5 +1,22 @@
 {
   "scripts": {
     "PHPUnit": ".\\vendor\\bin\\phpunit"
-  }
+  },
+  "name": "utils",
+  "description": "Utils is a generic PHP library for my personal project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salsan/PHPUtils.git"
+  },
+  "keywords": [
+    "php",
+    "dom",
+    "trait"
+  ],
+  "author": "Salvatore Santagati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/salsan/PHPUtils/issues"
+  },
+  "homepage": "https://github.com/salsan/PHPUtils#readme"
 }

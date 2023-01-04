@@ -1,12 +1,12 @@
 {
-    "name": "salsan/myapp",
-    "description": "Write a description here",
+    "name": "salsan/utils",
+    "description": "Utils is a generic PHP library for my personal project",
     "type": "library",    
-    "keywords": ["example tag1", "example tag2", "example tag3"],
+    "keywords": ["dom", "trait", "php"],
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Salsan\\Myapp\\": "src/"
+            "Salsan\\Utils\\": "src/"
         }
     },
     "authors": [

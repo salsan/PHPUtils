@@ -4,7 +4,7 @@
     stopOnFailure="false"
     testdox="true">
     <testsuites>
-        <testsuite name="Example">
+        <testsuite name="Utils">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
