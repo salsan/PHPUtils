@@ -14,7 +14,7 @@ trait HiddenSpaceTrait
             RIGHT-TO-LEFT MARK          \x{200f}    https://www.compart.com/en/unicode/U+200f
             LEFT-TO-RIGHT EMBEDDING     \x{202a}    https://www.compart.com/en/unicode/U+202a
             RIGHT-TO-LEFT OVERRIDE      \x{202e}    https://www.compart.com/en/unicode/U+202e
-            No-Break Space              \x{feff}    https://www.compart.com/en/unicode/U+feff
+            Zero Width No-Break Space   \x{feff}    https://www.compart.com/en/unicode/U+feff
             Thin Space                  \x{2009}    https://www.compart.com/en/unicode/U+2009
         */
         return preg_replace('/[\x{00a0}\x{200b}-\x{200f}\x{202a}-\x{202e}\x{feff}\x{2009}]/u', ' ', $str);
