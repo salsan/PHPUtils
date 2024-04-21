@@ -19,4 +19,9 @@ trait HiddenSpaceTrait
         */
         return preg_replace('/[\x{00a0}\x{200b}-\x{200f}\x{202a}-\x{202e}\x{feff}\x{2009}]/u', ' ', $str);
     }
+
+    public function trimmer(string $str)
+    {
+        return preg_replace('/^\s+|\s+$/u', '', $str);
+    }
 }
