@@ -6,9 +6,12 @@ namespace Salsan\Utils\DOM;
 
 use DOMDocument;
 use DOMXPath;
+use Salsan\Utils\String\HiddenSpaceTrait;
 
 trait DOMDocumentTrait
 {
+    use HiddenSpaceTrait;
+    
     public function getHTML(string $url, ?string $charset)
     {
         $dom = new DOMDocument();
